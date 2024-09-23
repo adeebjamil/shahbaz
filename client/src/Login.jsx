@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -85,3 +86,16 @@ const SignUp = () => {
 };
 
 export default SignUp;
+=======
+import React from 'react'
+
+function Login() {
+  return (
+    <div>
+      <h1>Login</h1>
+    </div>
+  )
+}
+
+export default Login
+>>>>>>> e3b820e511de8498d587188cb02262ea5fc60bea
