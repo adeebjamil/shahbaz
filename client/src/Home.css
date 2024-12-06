@@ -1,0 +1,35 @@
+/* General Styles */
+.container {
+    margin-top: 30px;
+  }
+  
+  /* Animated Heading */
+  .animated-heading {
+    font-size: 3rem;
+    color: #2c3e50;
+    font-weight: 700;
+  }
+  
+  /* Animated Text */
+  .animated-text {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  /* 3D Animation for Cards */
+  .animated-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-card:hover {
+    transform: scale(1.05) rotateY(15deg);
+  }
+  
+  .animated-card img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-card:hover img {
+    transform: scale(1.1);
+  }
+  

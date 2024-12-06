@@ -1,0 +1,127 @@
+/* Hero Image */
+.hero-image {
+    background-image: url('https://img.freepik.com/premium-vector/illustrative-representation-concept-advantages_1263357-35394.jpg?semt=ais_hybrid'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    color: black;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  
+  /* Section Title Animation */
+  .section-title {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 2rem;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  /* Feature Section */
+  .features-section {
+    padding: 50px 0;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: fadeInUp 2s forwards;
+  }
+  
+  .feature-item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .feature-content {
+    margin-left: 20px;
+  }
+  
+  .feature-item.animate__fadeInLeft {
+    animation: fadeInLeft 1s forwards;
+  }
+  
+  .feature-item.animate__fadeInRight {
+    animation: fadeInRight 1s forwards;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Button Styling */
+  .know-more-btn {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .know-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .github-link {
+    margin-top: 10px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .github-link:hover {
+    color: #007bff;
+  }
+  

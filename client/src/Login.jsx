@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -14,7 +14,7 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3000/login", { email, password })
+      .post("http://localhost:4000/login", { email, password })
       .then((res) => {
         console.log(res);
         if (res.data === "success") {
@@ -86,16 +86,4 @@ const SignUp = () => {
 };
 
 export default SignUp;
-=======
-import React from 'react'
 
-function Login() {
-  return (
-    <div>
-      <h1>Login</h1>
-    </div>
-  )
-}
-
-export default Login
->>>>>>> e3b820e511de8498d587188cb02262ea5fc60bea

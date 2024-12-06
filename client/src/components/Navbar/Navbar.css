@@ -1,0 +1,62 @@
+/* Navbar styles */
+.navbar {
+  background-color: #2c3e50;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  padding: 0.5rem 1rem; /* Adjusted padding for better compactness */
+}
+
+/* Center the navbar items */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem; /* Slightly smaller font size */
+  color: #ecf0f1 !important;
+  padding: 0.5rem 0.8rem; /* Reduced padding for more compact links */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3498db !important;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 0.5rem; /* Reduced space between items */
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: #3498db !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Animations */
+.nav-item {
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.nav-item a {
+  font-weight: bold;
+}
+
+/* Add smooth transitions for dark mode */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button icon transition */
+button {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
